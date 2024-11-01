@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main__header {
+    font-size: 50px;
+    color: rgb(92, 2, 92);
+    margin-bottom: 30px;
+}
+
+.main__text {
+    color: purple;
+}
+
+.star__header {
+    font-size: 17px;
+    color: purple;
+    margin-left: 17px;
+}
+
+
+
+
+.star__wrapper {
+    display: flex;
+    border: 2px solid grey;
+    position: absolute;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+    background-color: rgb(235, 229, 229);
+}
+
+.header__star {
+    font-size: 17px;
+    color: purple;
+    margin-left: 17px;
+}
