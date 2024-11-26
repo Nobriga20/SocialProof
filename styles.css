@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
+.cardnumber1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cardnumber2 {
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    
+}
+
+.cardnumber3 {
+    position: absolute;
+    top: 50px;
+    left: 70%;
+}
+
 .colton__box {
     display: flex;
     justify-content: center;
@@ -95,7 +114,10 @@
     margin-left: 120px;
     border-radius: 8px;
     margin-bottom: 750px;
-    margin-top: 30px;
+    width: calc(100%/3);
+    margin-top: 50px;
+    padding-bottom: 30px;
+    
 
     
 }
@@ -144,6 +166,7 @@
 .text {
     color: white;
     width: 70%;
+    margin-top: 30px;
    
    
     
@@ -154,6 +177,7 @@
 .colt__img {
     border-radius: 50px;
     margin-top: 20px;
+    margin-right: 20px;
 }
 
 .irene__img {
@@ -170,7 +194,10 @@
 }
 
 .buyer__wrapper {
-    display: flex
+    display: flex;
+    width: 100%;
+    position: relative;
+    
     
 }
 
